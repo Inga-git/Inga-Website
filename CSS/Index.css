@@ -1,0 +1,29 @@
+html, body{
+  margin: 0 auto;
+  padding: 0;
+}
+.top-section{
+  float: right;
+}
+.navbar ul li {
+  list-style-type: none;
+  display: inline-grid;
+  padding: 40px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  list-style-type:none;
+}
+.navigation{
+  text-align: center;
+  margin-top: -16px;
+}
+.bio{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  margin-right: 90px;
+}
+.bio-image img{
+  width: 100%;
+}
