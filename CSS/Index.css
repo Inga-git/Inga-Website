@@ -2,28 +2,75 @@ html, body{
   margin: 0 auto;
   padding: 0;
 }
+.social-icons{
+  float:right;
+  background: #123b66;
+  width: 100%;
+  margin-top: -7px;
+}
+}
 .top-section{
-  float: right;
+  width: 100%;
+  margin-top: -7px;
+
+}
+.logo img{
+  height: 90px;
+}
+.logo{
+  float: left;
+  padding: 40px;
+  margin-top: -50px;
+  margin-left: -45px;
 }
 .navbar ul li {
   list-style-type: none;
   display: inline-grid;
-  padding: 40px;
+  padding: 100px;
+  margin-top: -65px;
+  justify-content: center;
+  font-size: 25px;
+}
+.navbar a:hover{
+  color: #b679d0;
 }
 .navbar ul li a{
   text-decoration: none;
   list-style-type:none;
+  color: black;
 }
 .navigation{
   text-align: center;
-  margin-top: -16px;
+  margin-top: -8px;
 }
 .bio{
   display: inline-grid;
   grid-template-columns: auto auto;
   text-align: center;
-  margin-right: 90px;
-}
-.bio-image img{
+  margin-top: -400px;
+  background: url("../Images/sunset.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
   width: 100%;
+  justify-content: center;
+  color: white;
+}
+.bio-info img{
+  width: 70%;
+  border: 5px solid white;
+}
+.about{
+  text-align: center;
+  background: #1e1e1f;
+  color: white;
+  margin-top: -24px;
+  font-size: 18px;
+}
+.stories{
+  text-align: center;
+  font-family: Barlow Semi condensed,sans-serif;
+}
+
+
 }
