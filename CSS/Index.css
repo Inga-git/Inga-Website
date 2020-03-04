@@ -1,6 +1,7 @@
 html, body{
   margin: 0 auto;
   padding: 0;
+  scroll-behavior: smooth;
 }
 .social-icons{
   float:right;
@@ -21,13 +22,13 @@ html, body{
   float: left;
   padding: 40px;
   margin-top: -50px;
-  margin-left: -45px;
+  margin-left: -40px;
 }
 .navbar ul li {
   list-style-type: none;
   display: inline-grid;
   padding: 100px;
-  margin-top: -65px;
+  margin-top: -75px;
   justify-content: center;
   font-size: 25px;
 }
@@ -62,7 +63,7 @@ html, body{
 }
 .about{
   text-align: center;
-  background: #1e1e1f;
+  background: #113a66;
   color: white;
   margin-top: -24px;
   font-size: 18px;
@@ -70,7 +71,11 @@ html, body{
 .stories{
   text-align: center;
   font-family: Barlow Semi condensed,sans-serif;
+  color: white;
 }
-
-
+.content{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Images/inga-mayile.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 900px;
 }
